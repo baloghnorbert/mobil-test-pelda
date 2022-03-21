@@ -1,0 +1,75 @@
+.loader
+{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.flex
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.center
+{
+    justify-content: center;
+    align-items: center;
+}
+
+.center-vertical
+{
+    align-items: center;
+    height: 100%;
+}
+
+/* https://paletton.com */
+
+form
+{
+    width: 90%;
+}
+
+:root
+{
+    /* Set the background of the entire app */
+    --ion-background-color: #0f0d0e;
+    /* Set the font family of the entire app */
+    --ion-font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', 'Roboto', sans-serif;
+}
+
+.logo
+{
+    width: 50%;
+}
+
+
+
+/* Set text color of the entire app for iOS only */
+.ios, .md
+{
+    --ion-text-color: #AFB6C4;
+}
+  
+  /* Set text color of the entire app for Material Design only */
+.md
+{
+
+}
+
+ion-footer
+{
+    --ion-background-color: #0f0d0e;
+}
+
+ion-header
+{
+    background-color: #AFB6C4;
+}
+
+ion-header ion-item, ion-footer ion-item
+{
+    color: #010D28;
+    --ion-background-color: #AFB6C4;
+}

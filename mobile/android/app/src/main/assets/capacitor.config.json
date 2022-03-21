@@ -1,0 +1,6 @@
+{
+	"appId": "com.test",
+	"appName": "AmazonsOfVolleyball",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}

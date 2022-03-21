@@ -1,0 +1,31 @@
+Android build lépések:
+
+
+
+konzolból, a project mappájában:
+- npm run build
+- ionic capacitor add android
+- open the capacitor.config.json file and modify the appId property
+- ionic capacitor copy android
+- ionic cap open android
+
+android studió:
+- minimális követelmény az Android API 28 (oreo)
+- új virtuális ezköz létrehozása API lvl 28-al
+- start gombal indíthato
+
+
+android studió build APK:
+- build
+	-  he problem comes from the fact the my app uses http instead of https requests which Android forbids by default, starting with API level 28.
+	   To allow http requests, add android:usesCleartextTraffic="true" to app's AndroidManifest.xml
+	- generate single bundle / APK
+		- APK kiválasztása
+		- Key store path -> create new -> mezők kitöltése
+		- next
+		- next -> RELEASE opció -> finish
+	
+
+az APK file megtalálható a project mappán belül a ,,android\app\release,, mappában 
+a file neve ,,app-release.apk,, lesz
+

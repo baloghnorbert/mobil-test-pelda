@@ -1,0 +1,9 @@
+is_global = true
+build_property.RootNamespace = Solution.WebAPI
+build_property.RootNamespace = Solution.WebAPI
+build_property.ProjectDir = e:\Desktop\AoV\Solution.WebAPI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = e:\Desktop\AoV\Solution.WebAPI
+build_property._RazorSourceGeneratorDebug = 

@@ -1,0 +1,9 @@
+is_global = true
+build_property.RootNamespace = Solution.WebAPI
+build_property.RootNamespace = Solution.WebAPI
+build_property.ProjectDir = g:\_Tananyag\Ionic\03 - With fetch\09 - Amazons of volleyball\v2 - no image upload support\server [cors, auth, swagger]\Solution.WebAPI\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = g:\_Tananyag\Ionic\03 - With fetch\09 - Amazons of volleyball\v2 - no image upload support\server [cors, auth, swagger]\Solution.WebAPI
+build_property._RazorSourceGeneratorDebug = 

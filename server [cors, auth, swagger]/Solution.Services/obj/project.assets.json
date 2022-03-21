@@ -1,0 +1,107 @@
+{
+  "version": 3,
+  "targets": {
+    "net6.0": {
+      "Solution.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/Solution.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solution.Core.dll": {}
+        }
+      },
+      "Solution.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Solution.Core": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Solution.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Solution.Repository.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Solution.Core/1.0.0": {
+      "type": "project",
+      "path": "../Solution.Core/Solution.Core.csproj",
+      "msbuildProject": "../Solution.Core/Solution.Core.csproj"
+    },
+    "Solution.Repository/1.0.0": {
+      "type": "project",
+      "path": "../Solution.Repository/Solution.Repository.csproj",
+      "msbuildProject": "../Solution.Repository/Solution.Repository.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net6.0": [
+      "Solution.Core >= 1.0.0",
+      "Solution.Repository >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sze0balnor\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Services\\Solution.Services.csproj",
+      "projectName": "Solution.Services",
+      "projectPath": "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Services\\Solution.Services.csproj",
+      "packagesPath": "C:\\Users\\sze0balnor\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Services\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\sze0balnor\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net6.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "projectReferences": {
+            "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Core\\Solution.Core.csproj": {
+              "projectPath": "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Core\\Solution.Core.csproj"
+            },
+            "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Repository\\Solution.Repository.csproj": {
+              "projectPath": "C:\\Users\\sze0balnor\\Desktop\\mobile\\project - 10\\server [cors, auth, swagger]\\Solution.Repository\\Solution.Repository.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net6.0": {
+        "targetAlias": "net6.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

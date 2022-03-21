@@ -1,0 +1,12 @@
+e:\Desktop\AoV\Solution\Solution.Core\bin\Debug\net5.0\Solution.Core.deps.json
+e:\Desktop\AoV\Solution\Solution.Core\bin\Debug\net5.0\Solution.Core.dll
+e:\Desktop\AoV\Solution\Solution.Core\bin\Debug\net5.0\ref\Solution.Core.dll
+e:\Desktop\AoV\Solution\Solution.Core\bin\Debug\net5.0\Solution.Core.pdb
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.csproj.AssemblyReference.cache
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.GeneratedMSBuildEditorConfig.editorconfig
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.AssemblyInfoInputs.cache
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.AssemblyInfo.cs
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.csproj.CoreCompileInputs.cache
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.dll
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\ref\Solution.Core.dll
+e:\Desktop\AoV\Solution\Solution.Core\obj\Debug\net5.0\Solution.Core.pdb
